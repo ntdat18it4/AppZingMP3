@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearcarviewalbum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:id="@+id/imageviewalbum"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_width="170dp"
+            android:layout_height="170dp"/>
+
+        <TextView
+            android:fontFamily="@font/roboto_mediumitalic"
+            android:textColor="#000000"
+            android:maxWidth="200dp"
+            android:textSize="17sp"
+            android:text="Chạy Ngay Đi"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/textviewtenalbum"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        
+        <TextView
+            android:fontFamily="@font/roboto_mediumitalic"
+            android:textColor="#9e9797"
+            android:textSize="13sp"
+            android:maxWidth="200dp"
+            android:text="Sơn Tùng M-TP"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:id="@+id/textviewtencasialbum"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
